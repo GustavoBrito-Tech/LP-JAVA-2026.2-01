@@ -19,6 +19,6 @@ public class Gustavo {
         } else if (idade % 2 == 1) {
           System.out.println("Sua idade é ímpar!!!");
         }
-apague
+apag
     }
 }
