@@ -1,4 +1,4 @@
-public class Opa {
+public class OpaJava {
     public static void main (String []args){
         System.out.println("Finalmente oi!");
 
@@ -6,5 +6,5 @@ public class Opa {
         System.out.println(nome);
 
     }
-i
+
 }
