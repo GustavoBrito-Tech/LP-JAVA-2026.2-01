@@ -44,5 +44,5 @@ public class JogoFutebol {
         this.golsTime2 = golsTime2;
     }
 
-}
+}.
 
