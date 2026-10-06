@@ -6,19 +6,21 @@ public class ProgramaAtendimentosMedicos {
         Scanner leitor = new Scanner(System.in);
         System.out.println("Quantos atendimentos você quer cadastrar?");
         int quantAtendimentos = Integer.parseInt(leitor.nextLine());
-        AtendimentoMedico [] atendimentos = new AtendimentoMedico [quantAtendimentos];
+        AtendimentoMedico [] atendimentosMedicos = new AtendimentoMedico [quantAtendimentos];
         for (int k=0; k< quantAtendimentos; k++) {
             System.out.println("Qual o código do atendimento?");
             String codigo= leitor.nextLine();
-            System.out.println("Qual o dia do atendimento?");
+            System.out.println("Qual a data do atendimento?");
             String diaAtendimento = leitor.nextLine();
             System.out.println("Qual a categoria do atendimento? CLÍNICA,"
                     + "ORTOPÉDICO ou CARDIOLÓGICO");
             String categoriaAtendimento = leitor.nextLine();
-            atendimentos[k]  = new AtendimentoMedico(codigo, diaAtendimento, categoriaAtendimento);
+            atendimentosMedicos[k]  = new AtendimentoMedico(codigo, diaAtendimento, categoriaAtendimento);
         }
-        imprimeAtendimentos(atendimentos);
+        imprimeAtendimentos(atendimentosMedicos);
         leitor.close();
+
+        System.out.print("Quantidade de atendimentos Cardiológicos: " + AtendimentoMedico.contaQuantidadeDeAtendimentoCardiologicos(atendimentosMedicos));
     }
 
     private static void imprimeAtendimentos(AtendimentoMedico[] atendimentos) {
@@ -29,5 +31,6 @@ public class ProgramaAtendimentosMedicos {
                     +", Categoria:"+       atendimentos[i].getCategoriaAtendimento());
             i+=1;
         }
+
     }
 }

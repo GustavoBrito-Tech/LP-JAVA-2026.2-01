@@ -40,4 +40,45 @@ public class AtendimentoMedico {
                 this.categoriaAtendimento;
     }
 
+    public static int contaQuantidadeDeAtendimentoCardiologicos ( AtendimentoMedico [] atendimentosMedicos){
+        int numCardiologicos = 0;
+        for(int k = 0; k < atendimentosMedicos.length ; k++ ){
+            if(atendimentosMedicos[k].getCategoriaAtendimento().equalsIgnoreCase("CARDIOLÓGICO")){
+                numCardiologicos++;
+            }
+        }
+    return numCardiologicos;
+    }
+
+    public static boolean existiramAtendimentosNaData (String data, AtendimentoMedico [] atendimentosMedicos){
+        boolean AtendimentoNaData = false;
+        for(int k=0; k<atendimentosMedicos.length; k++ ){
+            if(atendimentosMedicos[k].getDiaAtendimento().equals(data)){
+                return true;
+            }
+        }
+    return false;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
