@@ -1,3 +1,5 @@
+package gustavo;
+
 import java.util.Scanner;
 
 public class Exercicio3_RosaAzul {

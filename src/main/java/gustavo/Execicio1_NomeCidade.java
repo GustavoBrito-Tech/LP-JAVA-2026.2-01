@@ -1,3 +1,5 @@
+package gustavo;
+
 import javax.swing.JOptionPane;
 
 public class Execicio1_NomeCidade {
