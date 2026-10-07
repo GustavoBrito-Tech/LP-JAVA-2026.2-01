@@ -1,4 +1,4 @@
-package br.ufpb.Exercicio6_1;
+package br.ufpb.dcx.brito.gustavo.Exercicios.Exercicio6_1;
 
 public class Produto {
     private String nome;

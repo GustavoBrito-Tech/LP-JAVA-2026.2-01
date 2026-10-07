@@ -1,4 +1,4 @@
-package br.ufpb.dcx.brito.gustavo.Jogos;
+package br.ufpb.dcx.brito.gustavo.Exercicios.Jogos;
 
 public class JogoFutebol {
     private String time1;

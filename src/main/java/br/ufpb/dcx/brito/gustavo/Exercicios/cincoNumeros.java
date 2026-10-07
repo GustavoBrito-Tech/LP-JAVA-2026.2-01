@@ -1,4 +1,4 @@
-package gustavo;
+package br.ufpb.dcx.brito.gustavo.Exercicios;
 
 import java.util.Scanner;
 import java.util.Arrays;

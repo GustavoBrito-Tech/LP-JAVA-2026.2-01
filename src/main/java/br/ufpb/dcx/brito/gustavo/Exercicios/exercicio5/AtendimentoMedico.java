@@ -1,4 +1,4 @@
-package br.ufpb.dcx.brito.gustavo.exercicio5;
+package br.ufpb.dcx.brito.gustavo.Exercicios.exercicio5;
 
 public class AtendimentoMedico {
     private String codigoAtendimento;

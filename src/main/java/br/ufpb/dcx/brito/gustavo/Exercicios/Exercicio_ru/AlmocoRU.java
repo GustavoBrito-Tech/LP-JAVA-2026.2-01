@@ -1,4 +1,4 @@
-package br.ufpb.Exercicio_ru;
+package br.ufpb.dcx.brito.gustavo.Exercicios.Exercicio_ru;
 import java.util.Scanner;
 
 public class AlmocoRU {

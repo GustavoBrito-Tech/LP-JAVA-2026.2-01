@@ -1,4 +1,4 @@
-package gustavo;
+package br.ufpb.dcx.brito.gustavo.Exercicios;
 
 import javax.swing.JOptionPane;
 

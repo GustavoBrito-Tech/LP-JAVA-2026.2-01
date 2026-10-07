@@ -1,4 +1,4 @@
-package br.ufpb.agenda;
+package br.ufpb.dcx.brito.gustavo.Exercicios.agenda;
 
 public class Endereco {
     private String logradouro;

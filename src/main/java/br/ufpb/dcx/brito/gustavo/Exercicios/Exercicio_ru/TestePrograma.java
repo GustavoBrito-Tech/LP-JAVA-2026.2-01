@@ -1,4 +1,7 @@
-package br.ufpb.Exercicio6_1;
+package br.ufpb.dcx.brito.gustavo.Exercicios.Exercicio_ru;
+import br.ufpb.dcx.brito.gustavo.Exercicios.Exercicio6_1.Produto;
+import br.ufpb.dcx.brito.gustavo.Exercicios.Exercicio6_1.ProgramaDescontos;
+
 import java.util.Scanner;
 public class TestePrograma {
 

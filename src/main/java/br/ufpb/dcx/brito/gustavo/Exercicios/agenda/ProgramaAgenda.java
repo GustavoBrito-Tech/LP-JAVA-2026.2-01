@@ -1,4 +1,4 @@
-package br.ufpb.agenda;
+package br.ufpb.dcx.brito.gustavo.Exercicios.agenda;
 
 import javax.swing.JOptionPane;
 

@@ -1,4 +1,4 @@
-package br.ufpb.dcx.brito.gustavo.exercicio5;
+package br.ufpb.dcx.brito.gustavo.Exercicios.exercicio5;
 
 import java.util.Scanner;
 public class ProgramaAtendimentosMedicos {

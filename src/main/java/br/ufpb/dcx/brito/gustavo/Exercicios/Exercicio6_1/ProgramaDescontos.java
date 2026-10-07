@@ -1,4 +1,4 @@
-package br.ufpb.Exercicio6_1;
+package br.ufpb.dcx.brito.gustavo.Exercicios.Exercicio6_1;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class ProgramaDescontos {
         }
     }
 
-    public static double calcularSomatorioDescontos(Produto [] produtos){
+    public static double calcularSomatorioDescontos(Produto[] produtos){
         double somatorio = 0;
         for (int k = 0; k < produtos.length; k++){
             double valorDesconto = produtos[k].getPreco() - calculaValorComDesconto(produtos[k].getPreco());
