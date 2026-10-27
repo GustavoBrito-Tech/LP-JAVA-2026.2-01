@@ -2,7 +2,7 @@ public class Gustavo {
     public static void main( String []args){
         String nome = "Gustavo Daniel";
         int idade = 18;
-        String metas = "se toranar um profissional que consiga resolver problemas através da programação";
+        String metas = "se tornar um profissional que consiga resolver problemas através da programação";
         float altura = 1.70f;
         double saldo = 123.12;
 
